@@ -1,7 +1,3 @@
-Here’s a **README.md** template for your GitHub repository:
-
----
-
 # **Kubernetes RBAC and Secure AWS RDS Access**
 
 This repository provides Kubernetes configurations to manage **Role-Based Access Control (RBAC)** for **Staging** and **Production** environments and to securely access AWS RDS resources using Kubernetes Secrets.
