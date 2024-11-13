@@ -31,10 +31,10 @@ This repository provides Kubernetes configurations to manage **Role-Based Access
 ```plaintext
 .
 ├── RoleBindingAdmin_stag.yaml         # RBAC configuration for staging namespace
-├── RoleBindingAdmin_prod.yaml      # RBAC configuration for production namespace
-├── rds-secrets.yaml          # Kubernetes secrets for RDS credentials
-├── k8s_deployment_test.yaml   # Example app deployment for staging
-├── README.md                 # Project documentation
+├── RoleBindingAdmin_prod.yaml         # RBAC configuration for production namespace
+├── rds-secrets.yaml                   # Kubernetes secrets for RDS credentials
+├── k8s_deployment_test.yaml           # Example app deployment for staging
+├── README.md                          # Project documentation
 ```
 
 ---
@@ -43,8 +43,8 @@ This repository provides Kubernetes configurations to manage **Role-Based Access
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/ASHISHKUMARBANYAL/kubernetes-rbac.git
+cd kubernetes-rbac
 ```
 
 ### **Step 2: Apply RBAC Configuration**
