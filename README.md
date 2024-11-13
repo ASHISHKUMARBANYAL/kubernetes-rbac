@@ -112,7 +112,7 @@ Contributions are welcome! To contribute:
 ## **Contact**
 
 For questions or support, reach out to:  
-📧 **Ashish Kumar Banyal**  
+📧 **ashishkumarbanyal@gmail.com**  
 📍 **Dubai, UAE**
 
 ---
