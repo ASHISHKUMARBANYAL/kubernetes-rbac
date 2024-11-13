@@ -50,11 +50,11 @@ cd <repository-directory>
 ### **Step 2: Apply RBAC Configuration**
 1. For the **staging** namespace:
    ```bash
-   kubectl apply -f rbac-staging.yaml
+   kubectl apply -f RoleBindingAdmin_stag.yaml
    ```
 2. For the **production** namespace:
    ```bash
-   kubectl apply -f rbac-production.yaml
+   kubectl apply -f RoleBindingAdmin_prod.yaml
    ```
 
 ### **Step 3: Create Secrets**
@@ -70,13 +70,9 @@ cd <repository-directory>
    ```
 
 ### **Step 4: Deploy Applications**
-1. For **staging**:
+
    ```bash
-   kubectl apply -f deployment-staging.yaml
-   ```
-2. For **production**:
-   ```bash
-   kubectl apply -f deployment-production.yaml
+   kubectl apply -f k8s_deployment_test.yaml
    ```
 
 ### **Step 5: Validate**
