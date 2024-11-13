@@ -30,11 +30,10 @@ This repository provides Kubernetes configurations to manage **Role-Based Access
 
 ```plaintext
 .
-├── rbac-staging.yaml         # RBAC configuration for staging namespace
-├── rbac-production.yaml      # RBAC configuration for production namespace
-├── secrets-rds.yaml          # Kubernetes secrets for RDS credentials
-├── deployment-staging.yaml   # Example app deployment for staging
-├── deployment-production.yaml # Example app deployment for production
+├── RoleBindingAdmin_stag.yaml         # RBAC configuration for staging namespace
+├── RoleBindingAdmin_prod.yaml      # RBAC configuration for production namespace
+├── rds-secrets.yaml          # Kubernetes secrets for RDS credentials
+├── k8s_deployment_test.yaml   # Example app deployment for staging
 ├── README.md                 # Project documentation
 ```
 
@@ -115,8 +114,6 @@ Contributions are welcome! To contribute:
 2. Create a feature branch.
 3. Commit and push your changes.
 4. Submit a pull request.
-
-If this repository is private, add **vlaskinvlad** as a collaborator.
 
 ---
 
